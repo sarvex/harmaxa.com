@@ -7,13 +7,13 @@ settings:
 dependencies:
   '@modular-forms/qwik':
     specifier: 0.23.1
-    version: 0.23.1(@builder.io/qwik-city@1.5.3)(@builder.io/qwik@1.4.2)
+    version: 0.23.1(@builder.io/qwik-city@1.5.3)(@builder.io/qwik@1.5.3)
   '@qwikest/icons':
     specifier: 0.0.13
-    version: 0.0.13(@builder.io/qwik@1.4.2)
+    version: 0.0.13(@builder.io/qwik@1.5.3)
   '@unpic/qwik':
     specifier: 0.0.46
-    version: 0.0.46(@builder.io/qwik@1.4.2)
+    version: 0.0.46(@builder.io/qwik@1.5.3)
   qwik-image:
     specifier: 0.0.10
     version: 0.0.10
@@ -23,8 +23,8 @@ devDependencies:
     specifier: 0.10.2
     version: 0.10.2
   '@builder.io/qwik':
-    specifier: 1.4.2
-    version: 1.4.2(@types/node@20.11.10)(undici@6.15.0)
+    specifier: 1.5.3
+    version: 1.5.3(@types/node@20.11.10)(undici@6.15.0)
   '@builder.io/qwik-city':
     specifier: 1.5.3
     version: 1.5.3(@types/node@20.11.10)
@@ -87,7 +87,7 @@ devDependencies:
     version: 7.6.19
   storybook-framework-qwik:
     specifier: 0.4.0
-    version: 0.4.0(@builder.io/qwik@1.4.2)(@types/node@20.11.10)(typescript@5.3.3)(vite@5.2.11)
+    version: 0.4.0(@builder.io/qwik@1.5.3)(@types/node@20.11.10)(typescript@5.3.3)(vite@5.2.11)
   tailwindcss:
     specifier: 3.4.3
     version: 3.4.3
@@ -1453,8 +1453,8 @@ packages:
       - supports-color
       - terser
 
-  /@builder.io/qwik@1.4.2(@types/node@20.11.10)(undici@6.15.0):
-    resolution: {integrity: sha512-DqDrcqhcUrQpSFbZ4FsokYM6Wb8PP9dDkutWxH0jhNLHG/C0SAUuqquaPl89fuiDJAj4nlXNKIG0GeZaUVYE6A==}
+  /@builder.io/qwik@1.5.3(@types/node@20.11.10)(undici@6.15.0):
+    resolution: {integrity: sha512-X42mnWN2gWbTVqcT5X44+twqZyHOnMEL/MbJZGGJ5wmLkhNdDr4afHUKfhTuMVLXtKBinPjzC1pFYOeAhLEn9w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
@@ -2382,13 +2382,13 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@modular-forms/qwik@0.23.1(@builder.io/qwik-city@1.5.3)(@builder.io/qwik@1.4.2):
+  /@modular-forms/qwik@0.23.1(@builder.io/qwik-city@1.5.3)(@builder.io/qwik@1.5.3):
     resolution: {integrity: sha512-oiXMdbH0HNotc9LMUwoEwZSJkY7/SObyQCgAZHsAPIQOyQrDhG2W8rEJVy0zFtSOCxk6NZjLiMcXfcI5glKU8A==}
     peerDependencies:
       '@builder.io/qwik': ^1.4.0
       '@builder.io/qwik-city': ^1.4.0
     dependencies:
-      '@builder.io/qwik': 1.4.2(@types/node@20.11.10)(undici@6.15.0)
+      '@builder.io/qwik': 1.5.3(@types/node@20.11.10)(undici@6.15.0)
       '@builder.io/qwik-city': 1.5.3(@types/node@20.11.10)
     dev: false
 
@@ -2440,13 +2440,13 @@ packages:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
     dev: true
 
-  /@qwikest/icons@0.0.13(@builder.io/qwik@1.4.2):
+  /@qwikest/icons@0.0.13(@builder.io/qwik@1.5.3):
     resolution: {integrity: sha512-e0wY8vmx0nDSUiuCATlk+ojTvdBV4txIGHHWjZW5SRkv4XB8H9+3WSDcLPz0ItUdRyzcrohE9k2jtQI/98aRPA==}
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
     dependencies:
-      '@builder.io/qwik': 1.4.2(@types/node@20.11.10)(undici@6.15.0)
+      '@builder.io/qwik': 1.5.3(@types/node@20.11.10)(undici@6.15.0)
     dev: false
 
   /@radix-ui/number@1.0.1:
@@ -4372,13 +4372,13 @@ packages:
   /@ungap/structured-clone@1.2.0:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
 
-  /@unpic/qwik@0.0.46(@builder.io/qwik@1.4.2):
+  /@unpic/qwik@0.0.46(@builder.io/qwik@1.5.3):
     resolution: {integrity: sha512-Nki7Y9uKwVUJv6A2IY3PjOz2Ma0s7lcpIMK7s8lGEtqvXzxdV2yomWWvePI8oZZXdZnwWFjy8/t2G9UqXeZIsA==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.4.2(@types/node@20.11.10)(undici@6.15.0)
+      '@builder.io/qwik': 1.5.3(@types/node@20.11.10)(undici@6.15.0)
     dev: false
 
   /@vercel/build-utils@8.0.0:
@@ -5228,15 +5228,18 @@ packages:
 
   /character-entities-html4@2.1.0:
     resolution: {integrity: sha512-1v7fgQRj6hnSwFpq1Eu0ynr/CDEw0rXo2B61qXrLNdHZmPKgb7fqS1a2JwF0rISo9q77jDI8VMEHoApn8qDoZA==}
+    requiresBuild: true
 
   /character-entities-legacy@3.0.0:
     resolution: {integrity: sha512-RpPp0asT/6ufRm//AJVwpViZbGM/MkjQFxJccQRHmISF/22NBtsHqAWmL+/pmkPWoIUJdWyeVleTl1wydHATVQ==}
+    requiresBuild: true
 
   /character-entities@2.0.2:
     resolution: {integrity: sha512-shx7oQ0Awen/BRIdkjkvz54PnEEI/EjwXDSIZp86/KKdbafHh1Df/RYGBhn4hbe2+uKC9FnT5UCEdyPz3ai9hQ==}
 
   /character-reference-invalid@2.0.1:
     resolution: {integrity: sha512-iBZ4F4wRbyORVsu0jPV7gXkOsGYjGHPmAyv+HiHG8gi5PtC9KI2j1+v8/tlibRvjoWX027ypmG/n0HtO5t7unw==}
+    requiresBuild: true
 
   /check-error@1.0.3:
     resolution: {integrity: sha512-iKEoDYaRmd1mxM90a2OEfWhjsjPpYPuQ+lMYsoxB126+t8fw7ySEO48nmDg5COTjxDI65/Y2OWpeEHk3ZOe8zg==}
@@ -7360,9 +7363,11 @@ packages:
 
   /is-alphabetical@2.0.1:
     resolution: {integrity: sha512-FWyyY60MeTNyeSRpkM2Iry0G9hpr7/9kD40mD/cGQEuilcZYS4okz8SN2Q6rLCJ8gbCt6fN+rC+6tMGS99LaxQ==}
+    requiresBuild: true
 
   /is-alphanumerical@2.0.1:
     resolution: {integrity: sha512-hmbYhX/9MUMF5uh7tOXyK/n0ZvWpad5caBA17GsC6vyuCqaWliRG5K1qS9inmUhEMaOBIW7/whAnSwveW/LtZw==}
+    requiresBuild: true
     dependencies:
       is-alphabetical: 2.0.1
       is-decimal: 2.0.1
@@ -7438,6 +7443,7 @@ packages:
 
   /is-decimal@2.0.1:
     resolution: {integrity: sha512-AAB9hiomQs5DXWcRB1rqsxGUstbRroFOPPVAomNk/3XHR5JyEZChOyTWe2oayKnsSsr/kcGqF+z6yuH6HHpN0A==}
+    requiresBuild: true
 
   /is-deflate@1.0.0:
     resolution: {integrity: sha512-YDoFpuZWu1VRXlsnlYMzKyVRITXj7Ej/V9gXQ2/pAe7X1J7M/RNOqaIYi6qUn+B7nGyB9pDXrv02dsB58d2ZAQ==}
@@ -7480,6 +7486,7 @@ packages:
 
   /is-hexadecimal@2.0.1:
     resolution: {integrity: sha512-DgZQp241c8oO6cA1SbTEWiXeoxV42vlcJxgH+B3hi1AiqqKruZR3ZGF8In3fj4+/y/7rHvlOZLZtgJ/4ttYGZg==}
+    requiresBuild: true
 
   /is-interactive@1.0.0:
     resolution: {integrity: sha512-2HvIEKRoqS62guEC+qBjpvRubdX910WCMuJTZ+I9yvqKU2/12eSL549HMwtabb4oupdj2sMP50k+XJfB/8JE6w==}
@@ -10567,13 +10574,13 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-framework-qwik@0.4.0(@builder.io/qwik@1.4.2)(@types/node@20.11.10)(typescript@5.3.3)(vite@5.2.11):
+  /storybook-framework-qwik@0.4.0(@builder.io/qwik@1.5.3)(@types/node@20.11.10)(typescript@5.3.3)(vite@5.2.11):
     resolution: {integrity: sha512-b3eEhq8a4dTHeh/lPheY4b4FxIxwVQp48DhRNhgX2EzX+JpWz1MpJm5kyD788ZrXw5A3s7CIL9wrOfnJHyXxzQ==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
-      '@builder.io/qwik': 1.4.2(@types/node@20.11.10)(undici@6.15.0)
+      '@builder.io/qwik': 1.5.3(@types/node@20.11.10)(undici@6.15.0)
       '@storybook/builder-vite': 7.6.19(typescript@5.3.3)(vite@5.2.11)
       '@storybook/docs-tools': 8.0.9
       magic-string: 0.30.10
